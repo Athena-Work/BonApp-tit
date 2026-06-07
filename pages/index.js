@@ -1,3 +1,3 @@
 export default function Home() {
-  return <>Food project</>;
+  return <>Foods project</>;
 }
