@@ -8,7 +8,7 @@ function Banner() {
   return (
     <div className={styles.container}>
       <div className={styles.rightSide}>
-        <h3>Bon Appétit Food</h3>
+        <h2>Bon Appétit Food</h2>
         <div>Food Delivery and Takeout!</div>
         <span>
           Bon Appétit Food is an online food ordering and delivery platform.
