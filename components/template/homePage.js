@@ -1,4 +1,5 @@
 import Banner from "../modules/banner";
+import WhoWeAre from "../modules/whoWeAre";
 import WhyUs from "../modules/whyUs";
 
 //Style
@@ -9,6 +10,7 @@ const HomePage = () => {
     <div className={styles.container}>
       <Banner />
       <WhyUs />
+      <WhoWeAre />
     </div>
   );
 };
