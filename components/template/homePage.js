@@ -1,4 +1,6 @@
 import Banner from "../modules/banner";
+import Company from "../modules/company";
+import HowToOrder from "../modules/howToOrder";
 import WhoWeAre from "../modules/whoWeAre";
 import WhyUs from "../modules/whyUs";
 
@@ -11,6 +13,8 @@ const HomePage = () => {
       <Banner />
       <WhyUs />
       <WhoWeAre />
+      <Company />
+      <HowToOrder />
     </div>
   );
 };
