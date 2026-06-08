@@ -1,6 +1,8 @@
 import Banner from "../modules/banner";
 import Company from "../modules/company";
+import Guide from "../modules/guide";
 import HowToOrder from "../modules/howToOrder";
+import Restrictions from "../modules/restrictions";
 import WhoWeAre from "../modules/whoWeAre";
 import WhyUs from "../modules/whyUs";
 
@@ -15,6 +17,8 @@ const HomePage = () => {
       <WhoWeAre />
       <Company />
       <HowToOrder />
+      <Guide />
+      <Restrictions />
     </div>
   );
 };
